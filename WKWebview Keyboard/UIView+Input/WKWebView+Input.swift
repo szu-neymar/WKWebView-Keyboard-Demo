@@ -8,16 +8,17 @@
 
 import WebKit
 
-extension WKWebView {
+extension WKWebView: CustomKeyboardTargetProtocol {
     // 输入字符，输入字符的位置取决于 WebView 当前焦点输入框光标的位置
     func input(text: String) {
+        let value = text == "\'" ? "\\'" : text
         let script =
         """
         var currentInput = document.activeElement
         var start = currentInput.selectionStart
         var end = currentInput.selectionEnd
         var value = currentInput.value
-        value = value.slice(0, start) + '\(text)' + value.slice(end)
+        value = value.slice(0, start) + '\(value)' + value.slice(end)
         
         currentInput.value = value
         currentInput.setSelectionRange(start + 1, start + 1)
@@ -43,8 +44,6 @@ extension WKWebView {
             currentInput.value = value
             currentInput.setSelectionRange(start, start)
         }
-        
-        
         """
         
         evaluateJavaScript(script, completionHandler: nil)

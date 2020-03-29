@@ -13,6 +13,7 @@ class SolutionTwoController: UIViewController {
 
     private let webView = SolutionTwoWebView()
     private var isPasswordInputOnFocus = false
+    private var customKeyboard: CustomKeyboard?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +31,7 @@ class SolutionTwoController: UIViewController {
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        view.resignFirstResponder()
+        customKeyboard?.hide()
     }
     
     // MARK: - Keyboard Intercept
@@ -59,9 +60,10 @@ class SolutionTwoController: UIViewController {
             $0.isHidden = true
         }
         
-        let customKeyboard = CustomKeyboard(frame: CGRect(x: 0, y: kbWindow.bounds.height - 300, width: kbWindow.bounds.width, height: 300))
-        customKeyboard.targetView = self.webView
-        kbWindow.addSubview(customKeyboard)
+        let keyboardHeight = 220 + UIDevice.current.bottomAreaHeight
+        customKeyboard = CustomKeyboard(frame: CGRect(x: 0, y: kbWindow.bounds.height - keyboardHeight, width: kbWindow.bounds.width, height: keyboardHeight))
+        customKeyboard?.targetView = self.webView
+        kbWindow.addSubview(customKeyboard!)
     }
     
     func reloadSystemKeyboard(with keyboardWindow: UIWindow?) {
@@ -108,7 +110,6 @@ extension SolutionTwoController: WKNavigationDelegate, WKUIDelegate {
     }
     
     func webView(_ webView: WKWebView, runJavaScriptAlertPanelWithMessage message: String, initiatedByFrame frame: WKFrameInfo, completionHandler: @escaping () -> Void) {
-        print(message)
         // 密码框对焦，即开始输入，即将会弹出系统键盘
         if message == "password.focus" {
             isPasswordInputOnFocus = true

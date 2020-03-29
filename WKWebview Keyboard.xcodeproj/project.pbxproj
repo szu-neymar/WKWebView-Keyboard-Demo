@@ -10,19 +10,24 @@
 		3828FF31242F758800862628 /* SolutionOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828FF30242F758800862628 /* SolutionOneController.swift */; };
 		3828FF33242F8C5E00862628 /* SolutionTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828FF32242F8C5E00862628 /* SolutionTwoController.swift */; };
 		3828FF36242FDD2500862628 /* WKWebView+Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828FF35242FDD2500862628 /* WKWebView+Input.swift */; };
+		3828FF3824305CD000862628 /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828FF3724305CD000862628 /* CustomKeyboard.swift */; };
+		3828FF3A24308A5F00862628 /* CustomKeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828FF3924308A5F00862628 /* CustomKeyButton.swift */; };
+		3828FF3D243091DC00862628 /* UIKitEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828FF3C243091DC00862628 /* UIKitEx.swift */; };
 		384B1C57242E4CED00BF487C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B1C56242E4CED00BF487C /* AppDelegate.swift */; };
 		384B1C59242E4CED00BF487C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B1C58242E4CED00BF487C /* SceneDelegate.swift */; };
 		384B1C5B242E4CED00BF487C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B1C5A242E4CED00BF487C /* ViewController.swift */; };
 		384B1C5E242E4CED00BF487C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384B1C5C242E4CED00BF487C /* Main.storyboard */; };
 		384B1C60242E4CEE00BF487C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384B1C5F242E4CEE00BF487C /* Assets.xcassets */; };
 		384B1C63242E4CEE00BF487C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384B1C61242E4CEE00BF487C /* LaunchScreen.storyboard */; };
-		384B1C6C242E6FB400BF487C /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B1C6B242E6FB400BF487C /* CustomKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3828FF30242F758800862628 /* SolutionOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionOneController.swift; sourceTree = "<group>"; };
 		3828FF32242F8C5E00862628 /* SolutionTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTwoController.swift; sourceTree = "<group>"; };
 		3828FF35242FDD2500862628 /* WKWebView+Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Input.swift"; sourceTree = "<group>"; };
+		3828FF3724305CD000862628 /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+		3828FF3924308A5F00862628 /* CustomKeyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyButton.swift; sourceTree = "<group>"; };
+		3828FF3C243091DC00862628 /* UIKitEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitEx.swift; sourceTree = "<group>"; };
 		384B1C53242E4CED00BF487C /* WKWebview Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WKWebview Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		384B1C56242E4CED00BF487C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		384B1C58242E4CED00BF487C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +36,6 @@
 		384B1C5F242E4CEE00BF487C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		384B1C62242E4CEE00BF487C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		384B1C64242E4CEE00BF487C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		384B1C6B242E6FB400BF487C /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +58,18 @@
 			path = Solutions;
 			sourceTree = "<group>";
 		};
-		3828FF34242FDD0E00862628 /* Utils */ = {
+		3828FF34242FDD0E00862628 /* UIView+Input */ = {
 			isa = PBXGroup;
 			children = (
 				3828FF35242FDD2500862628 /* WKWebView+Input.swift */,
+			);
+			path = "UIView+Input";
+			sourceTree = "<group>";
+		};
+		3828FF3B243091C200862628 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3828FF3C243091DC00862628 /* UIKitEx.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -81,7 +93,8 @@
 		384B1C55242E4CED00BF487C /* WKWebview Keyboard */ = {
 			isa = PBXGroup;
 			children = (
-				3828FF34242FDD0E00862628 /* Utils */,
+				3828FF3B243091C200862628 /* Utils */,
+				3828FF34242FDD0E00862628 /* UIView+Input */,
 				3828FF2F242F754300862628 /* Solutions */,
 				384B1C6A242E6F8D00BF487C /* CustomKeyboard */,
 				384B1C56242E4CED00BF487C /* AppDelegate.swift */,
@@ -98,7 +111,8 @@
 		384B1C6A242E6F8D00BF487C /* CustomKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				384B1C6B242E6FB400BF487C /* CustomKeyboard.swift */,
+				3828FF3724305CD000862628 /* CustomKeyboard.swift */,
+				3828FF3924308A5F00862628 /* CustomKeyButton.swift */,
 			);
 			path = CustomKeyboard;
 			sourceTree = "<group>";
@@ -175,12 +189,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3828FF36242FDD2500862628 /* WKWebView+Input.swift in Sources */,
+				3828FF3D243091DC00862628 /* UIKitEx.swift in Sources */,
 				384B1C5B242E4CED00BF487C /* ViewController.swift in Sources */,
 				384B1C57242E4CED00BF487C /* AppDelegate.swift in Sources */,
+				3828FF3A24308A5F00862628 /* CustomKeyButton.swift in Sources */,
 				3828FF31242F758800862628 /* SolutionOneController.swift in Sources */,
 				3828FF33242F8C5E00862628 /* SolutionTwoController.swift in Sources */,
+				3828FF3824305CD000862628 /* CustomKeyboard.swift in Sources */,
 				384B1C59242E4CED00BF487C /* SceneDelegate.swift in Sources */,
-				384B1C6C242E6FB400BF487C /* CustomKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

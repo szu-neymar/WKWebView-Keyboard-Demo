@@ -32,9 +32,13 @@ class SolutionOneWebView: WKWebView {
         return customKeyboard;
     }
     
+    override var inputAccessoryView: UIView? {
+        return nil
+    }
+    
     override init(frame: CGRect, configuration: WKWebViewConfiguration) {
         super.init(frame: frame, configuration: configuration)
-        customKeyboard = CustomKeyboard(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 300))
+        customKeyboard = CustomKeyboard(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 220 + UIDevice.current.bottomAreaHeight))
         customKeyboard?.targetView = self
     }
     
