@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3828FF31242F758800862628 /* SolutionOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828FF30242F758800862628 /* SolutionOneController.swift */; };
+		3828FF33242F8C5E00862628 /* SolutionTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828FF32242F8C5E00862628 /* SolutionTwoController.swift */; };
+		3828FF36242FDD2500862628 /* WKWebView+Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3828FF35242FDD2500862628 /* WKWebView+Input.swift */; };
+		384B1C57242E4CED00BF487C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B1C56242E4CED00BF487C /* AppDelegate.swift */; };
+		384B1C59242E4CED00BF487C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B1C58242E4CED00BF487C /* SceneDelegate.swift */; };
+		384B1C5B242E4CED00BF487C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B1C5A242E4CED00BF487C /* ViewController.swift */; };
+		384B1C5E242E4CED00BF487C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384B1C5C242E4CED00BF487C /* Main.storyboard */; };
+		384B1C60242E4CEE00BF487C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384B1C5F242E4CEE00BF487C /* Assets.xcassets */; };
+		384B1C63242E4CEE00BF487C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384B1C61242E4CEE00BF487C /* LaunchScreen.storyboard */; };
+		384B1C6C242E6FB400BF487C /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B1C6B242E6FB400BF487C /* CustomKeyboard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3828FF30242F758800862628 /* SolutionOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionOneController.swift; sourceTree = "<group>"; };
+		3828FF32242F8C5E00862628 /* SolutionTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionTwoController.swift; sourceTree = "<group>"; };
+		3828FF35242FDD2500862628 /* WKWebView+Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Input.swift"; sourceTree = "<group>"; };
+		384B1C53242E4CED00BF487C /* WKWebview Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WKWebview Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		384B1C56242E4CED00BF487C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		384B1C58242E4CED00BF487C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		384B1C5A242E4CED00BF487C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		384B1C5D242E4CED00BF487C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		384B1C5F242E4CEE00BF487C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		384B1C62242E4CEE00BF487C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		384B1C64242E4CEE00BF487C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		384B1C6B242E6FB400BF487C /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		384B1C50242E4CED00BF487C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3828FF2F242F754300862628 /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				3828FF30242F758800862628 /* SolutionOneController.swift */,
+				3828FF32242F8C5E00862628 /* SolutionTwoController.swift */,
+			);
+			path = Solutions;
+			sourceTree = "<group>";
+		};
+		3828FF34242FDD0E00862628 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3828FF35242FDD2500862628 /* WKWebView+Input.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		384B1C4A242E4CED00BF487C = {
+			isa = PBXGroup;
+			children = (
+				384B1C55242E4CED00BF487C /* WKWebview Keyboard */,
+				384B1C54242E4CED00BF487C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		384B1C54242E4CED00BF487C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				384B1C53242E4CED00BF487C /* WKWebview Keyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		384B1C55242E4CED00BF487C /* WKWebview Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3828FF34242FDD0E00862628 /* Utils */,
+				3828FF2F242F754300862628 /* Solutions */,
+				384B1C6A242E6F8D00BF487C /* CustomKeyboard */,
+				384B1C56242E4CED00BF487C /* AppDelegate.swift */,
+				384B1C58242E4CED00BF487C /* SceneDelegate.swift */,
+				384B1C5A242E4CED00BF487C /* ViewController.swift */,
+				384B1C5C242E4CED00BF487C /* Main.storyboard */,
+				384B1C5F242E4CEE00BF487C /* Assets.xcassets */,
+				384B1C61242E4CEE00BF487C /* LaunchScreen.storyboard */,
+				384B1C64242E4CEE00BF487C /* Info.plist */,
+			);
+			path = "WKWebview Keyboard";
+			sourceTree = "<group>";
+		};
+		384B1C6A242E6F8D00BF487C /* CustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				384B1C6B242E6FB400BF487C /* CustomKeyboard.swift */,
+			);
+			path = CustomKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		384B1C52242E4CED00BF487C /* WKWebview Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 384B1C67242E4CEE00BF487C /* Build configuration list for PBXNativeTarget "WKWebview Keyboard" */;
+			buildPhases = (
+				384B1C4F242E4CED00BF487C /* Sources */,
+				384B1C50242E4CED00BF487C /* Frameworks */,
+				384B1C51242E4CED00BF487C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WKWebview Keyboard";
+			productName = "WKWebview Keyboard";
+			productReference = 384B1C53242E4CED00BF487C /* WKWebview Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		384B1C4B242E4CED00BF487C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = maycliao;
+				TargetAttributes = {
+					384B1C52242E4CED00BF487C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 384B1C4E242E4CED00BF487C /* Build configuration list for PBXProject "WKWebview Keyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 384B1C4A242E4CED00BF487C;
+			productRefGroup = 384B1C54242E4CED00BF487C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				384B1C52242E4CED00BF487C /* WKWebview Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		384B1C51242E4CED00BF487C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384B1C63242E4CEE00BF487C /* LaunchScreen.storyboard in Resources */,
+				384B1C60242E4CEE00BF487C /* Assets.xcassets in Resources */,
+				384B1C5E242E4CED00BF487C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		384B1C4F242E4CED00BF487C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3828FF36242FDD2500862628 /* WKWebView+Input.swift in Sources */,
+				384B1C5B242E4CED00BF487C /* ViewController.swift in Sources */,
+				384B1C57242E4CED00BF487C /* AppDelegate.swift in Sources */,
+				3828FF31242F758800862628 /* SolutionOneController.swift in Sources */,
+				3828FF33242F8C5E00862628 /* SolutionTwoController.swift in Sources */,
+				384B1C59242E4CED00BF487C /* SceneDelegate.swift in Sources */,
+				384B1C6C242E6FB400BF487C /* CustomKeyboard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		384B1C5C242E4CED00BF487C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				384B1C5D242E4CED00BF487C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		384B1C61242E4CEE00BF487C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				384B1C62242E4CEE00BF487C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		384B1C65242E4CEE00BF487C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		384B1C66242E4CEE00BF487C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		384B1C68242E4CEE00BF487C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D98TJ9H5N8;
+				INFOPLIST_FILE = "WKWebview Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mayc.WKWebview-Keyboard01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		384B1C69242E4CEE00BF487C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D98TJ9H5N8;
+				INFOPLIST_FILE = "WKWebview Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mayc.WKWebview-Keyboard01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		384B1C4E242E4CED00BF487C /* Build configuration list for PBXProject "WKWebview Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				384B1C65242E4CEE00BF487C /* Debug */,
+				384B1C66242E4CEE00BF487C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		384B1C67242E4CEE00BF487C /* Build configuration list for PBXNativeTarget "WKWebview Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				384B1C68242E4CEE00BF487C /* Debug */,
+				384B1C69242E4CEE00BF487C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 384B1C4B242E4CED00BF487C /* Project object */;
+}
